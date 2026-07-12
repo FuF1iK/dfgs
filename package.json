@@ -1,0 +1,16 @@
+{
+  "name": "discord-html-watcher",
+  "version": "1.0.0",
+  "description": "Discord-бот, показывающий живой скриншот HTML-страницы в обновляемом embed",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.0"
+  }
+}
