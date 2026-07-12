@@ -6,7 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "deploy": "node deploy-commands.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
